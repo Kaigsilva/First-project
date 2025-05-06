@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+/*cor suave para o fundo da página: "background-color: #e6e6e6;"*/
+/*tamanho dos p: "font-size: 1em;"*/
+
+/*CONFIGS*/
+
+
+
+
+
+
+/*START NAVBAR*/
+#navbar {
+    width: 100%;
+    height: 180px;
+    background-color: #DCB8CB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar h1 {
+    color: #0A0A0A;
+}
+/*cor diferenciada para o h1: "color: #0A0A0A;"*/
+
+
+
+#navbar ul {
+    margin-top: 10px;
+}
+
+#navbar ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    margin: 10px;
+}
+/*espaçamento maior entre os itens da <ul>*/
+
+
+#navbar li a:hover {
+    background-color: white;
+    color: #DCB8CB;
+}
+/*mudança de cor nos links através do a:hover*/
+
+h1 {
+    margin-bottom: 15px;
+}
+/*END NAVBAR*/
+
+
+
+
+
+
+/*CONTEÚDO*/
+#principal {
+    width: 850px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+}
+
+#principal p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+#principal .biografia {
+    width: 70%;
+    display: block;
+    margin: 70px auto 0 auto;
+    font-size: 1.1em;
+}
+/*parágrafo justificado e com tamanho maior*/
+
+img {
+    height: 400px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+/*borda arredondada para as imagens*/
+
+
+h2 {
+    background-color: #DCB8CB;
+    width: 350px;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+h4 {
+    background-color: #DCB8CB;
+    width: 70px;
+    text-align: center;
+    margin-top: 100px;
+}
+/*END CONTEÚDO*/
+
+
+
+
+
+
+/*BOTAO*/
+
+button {
+    background-color: #DCB8CB;
+    border: solid 1px #DCB8CB;
+    border-radius: 3px;
+    padding: 10px 10px;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+button:hover {
+    background-color: #BA9BAC;
+    border: solid 1px;
+}
+/*BOTAO END*/
+
+
+
+/*MSG*/
+#msg {
+    width: 45%;
+    text-align: justify;
+    padding: 5px 10px;
+    margin: 25px auto;
+    border: 5px solid #DCB8CB;
+    display: none;
+}
+/*MSG END*/
+
+
+
+/*DIVIDER*/
+hr {
+    margin: 100px 0;
+}
+/*DIVIDER*/
+
+
+
+
+
+
+/*TABELA*/
+
+table {
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+table, tr, td, th {
+    border: 1px solid #DCB8CB;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+
+td {
+    text-align: justify;
+}
+
+table img {
+    height: 150px;
+}
+/*tabela estilizada*/
+
+
+
+
+
+
+/*botao para voltar ao topo da pagina*/
+
+#back-top {
+    background-color: #DCB8CB;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+#back-top p {
+    font-size: 3em;
+    text-align: center;
+    line-height: 80px;
+}
+
+#back-top a {
+    text-decoration: none;
+    color: white;
+}
+
+#back-top:hover {
+    border: 6px solid #DCB8CB;
+    background-color: white;
+}
+
+#back-top a:hover {
+    text-decoration: none;
+    color: #DCB8CB;
+}

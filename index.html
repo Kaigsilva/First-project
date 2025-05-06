@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Kai Gonçalves</title>
+</head>
+<body>
+
+
+    <!--NAVBAR-->
+    <div id="navbar">
+        <h1 id="title">Kailayne Gonçalves</h1>
+        <!--Título principal com o meu nome-->
+        <ul>
+            <li><a href="#leitura">Leitura</a></li>
+            <li><a href="#game">Gaming</a></li>
+            <li><a href="#danca">Dança</a></li>
+            <li><a href="#viagens">Viagens</a></li>
+            <li><a href="https://open.spotify.com/playlist/3isnGXNqRlEmPRlSSn0rYZ?si=9f39a9ef00ee408f" target="_blank">Playlist</a></li>
+            <!--link para um site de meu interesse-->
+        </ul>
+        <!--lista não ordenada com os meus hobbies-->
+    </div>
+    <!--NAVBAR END-->
+
+
+
+
+    <!--CONTEUDO-->
+    <div id="principal">       
+        <div >
+            <p class="biografia">"Olá! Meu nome é Kailayne Gonçalves da Silva. Tenho 20 anos, moro em São José do Rio Preto e sou completamente apaixonada por música, dança e tudo o que envolva arte. Desde pequena, sempre tive uma fascinação por viajar - mesmo ainda não tendo realizado esse sonho - e hoje sonho em viajar o mundo e me tornar poliglota. Atualmente, sou professora de inglês em uma plataforma digital e curso Análise e Desenvolvimento de Sistemas na faculdade UNINTER."</p>
+            <!--Parágrafo com uma pequana biografia-->
+
+
+
+
+            <button onclick="botao()">Clique aqui para ver uma mensagem!</button>
+            <!--botão JS-->
+            <div id="msg">
+                <p>
+                    매번 똑같아, 마치, 마치 oh, waltz 같아
+                    고 또 돌아 또 제자리에 (제자리에)
+                    끝나지 않는 이 음악에 맞춰 춤추네
+                    전쟁 같은 우리 love song
+                </p>
+            </div>
+
+
+
+            <hr class="divider">
+
+
+
+            <h2>Alguns dos meus hobies:</h2>    
+
+            <h4 id="leitura">Leitura</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum, velit sed imperdiet auctor, nulla mauris faucibus libero, id mollis risus mauris quis tortor. Nulla nibh nibh, consequat eget ultrices vitae, ornare eu ex. Praesent lorem mi, faucibus sit amet tempus ut, accumsan sit amet mauris. Sed ultrices nulla est, sit amet condimentum justo elementum nec.</p>
+            <img src="imgs/read.png" alt="foto de um livro no colo de uma garota">
+            <!--imagens que representem os meus hobbies-->
+            <h4 id="game">Gaming</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum, velit sed imperdiet auctor, nulla mauris faucibus libero, id mollis risus mauris quis tortor. Nulla nibh nibh, consequat eget ultrices vitae, ornare eu ex. Praesent lorem mi, faucibus sit amet tempus ut, accumsan sit amet mauris. Sed ultrices nulla est, sit amet condimentum justo elementum nec.</p>
+            <img src="imgs/gamer.png" alt="foto de uma garota jogando um jogo em seu computados">
+
+            <h4 id="danca">Dança</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum, velit sed imperdiet auctor, nulla mauris faucibus libero, id mollis risus mauris quis tortor. Nulla nibh nibh, consequat eget ultrices vitae, ornare eu ex. Praesent lorem mi, faucibus sit amet tempus ut, accumsan sit amet mauris. Sed ultrices nulla est, sit amet condimentum justo elementum nec.</p>
+            <img src="imgs/dance.png" alt="foto de um grupo de pessoas dançando">
+
+        </div>
+        <hr>
+        <!--CONTEUDO END-->
+
+
+
+        <!--TABLE-->
+        <div>
+            <h2 id="viagens">Destinos dos sonhos:</h2>
+            <table>
+            <!--tabela com nome e imagem de três países que pretendo visitar-->
+                <tr>
+                    <th>Coréia do Sul</th>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit neque, dictum vitae nibh ac, accumsan tincidunt mi. Integer luctus lorem nisl, eget volutpat sapien mattis a. Praesent et interdum urna. Morbi quis pellentesque sem, a dapibus magna. Quisque vehicula vestibulum tincidunt. Maecenas euismod turpis molestie est eleifend, vitae malesuada dui molestie.</td>
+                    <td><img src="imgs/korea.png" alt="Ruas de Seoul, Coréia do Sul"></td>
+                </tr>
+
+                <tr>
+                    <th>China</th>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit neque, dictum vitae nibh ac, accumsan tincidunt mi. Integer luctus lorem nisl, eget volutpat sapien mattis a. Praesent et interdum urna. Morbi quis pellentesque sem, a dapibus magna. Quisque vehicula vestibulum tincidunt. Maecenas euismod turpis molestie est eleifend, vitae malesuada dui molestie.</td>
+                    <td><img src="imgs/china.png" alt="Foto de um lago na China"></td>
+                </tr>
+
+                <tr>
+                    <th>Filipinas</th>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit neque, dictum vitae nibh ac, accumsan tincidunt mi. Integer luctus lorem nisl, eget volutpat sapien mattis a. Praesent et interdum urna. Morbi quis pellentesque sem, a dapibus magna. Quisque vehicula vestibulum tincidunt. Maecenas euismod turpis molestie est eleifend, vitae malesuada dui molestie.</td>
+                    <td><img src="imgs/filipines.png" alt="Foto de uma praia nas Filipinas"></td>
+                </tr>
+            </table>
+            <!--decidi adicionar uma coluna a mais, com pequenos parágrafos, por motivos estéticos-->
+        </div>
+        <!--TABLE END-->
+
+        <div id="back-top">
+            <a href="#navbar"><p>^</p></a>
+        </div>
+
+
+
+    </div>    
+
+    <script>
+        function botao() {
+            var x = document.getElementById("msg");
+            x.style.display = "block"
+        }
+    </script>
+</body>
+</html>
